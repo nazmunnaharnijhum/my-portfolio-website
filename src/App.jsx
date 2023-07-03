@@ -34,15 +34,74 @@ function App() {
         <a href="#"><i className='bx bxl-github'></i></a>
         <a href="#"><i className='bx bxl-facebook'></i></a>
         </div>
-        <a href="#contact" className='btn'>Let's Talk</a>
+        <a href="#contact" className='button'>Let's Talk</a>
       </div>
       <div className='profile-pic'>
         <img src="/src/assets/IMG_20220106_201607-fotor-20230702185841.png" alt="" />
       </div>
     </section>
     {/* about section */}
+    <section className='about' id='about'>
+      <div className="heading">
+        <h2>About <span>Me</span></h2>
+      </div>
+      <div className="about-items">
+        <div className="about-resume">
+          <h3>Front-End & MERN Stack Developer</h3>
+          <a href="#" className='button'>Download Resume</a>
+        </div>
+        <div className="about-text">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum reprehenderit animi repellat sit doloribus molestiae, <br /> illo est aliquid. Suscipit doloremque aut atque laudantium esse necessitatibus voluptates possimus nostrum praesentium dolor.</p>
+        </div>
+      </div>
+    </section>
 
     {/* skills section */}
+    <section className="skills" id="skills">
+      <div className="heading">
+        <h2>My <span>Skills</span></h2>
+      </div>
+      <div className="skills-items">
+        <div className="skill-card">
+        <i className='bx bxl-html5' ></i>
+        <h3>HTML</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, dicta!</p>
+        </div>
+      
+        <div className="skill-card">
+        <i className='bx bxl-css3' ></i>
+        <h3>CSS</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, dicta!</p>
+        </div>
+      
+      
+        <div className="skill-card">
+        <i className='bx bxl-javascript' ></i>
+        <h3>JavaScript</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, dicta!</p>
+        </div>
+      
+        <div className="skill-card">
+        <i className='bx bxl-nodejs' ></i>
+        <h3>Node JS</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, dicta!</p>
+        </div>
+     
+        <div className="skill-card">
+        <i className='bx bxl-react' ></i>
+        <h3>React</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, dicta!</p>
+      </div>
+        <div className="skill-card">
+        <i className='bx bxl-github' ></i>
+        <h3>GitHub</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, dicta!</p>
+        </div>
+      </div>
+
+      
+    </section>
+
 
     {/* projects section */}
 
