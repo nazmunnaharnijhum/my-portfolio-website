@@ -2,6 +2,7 @@
 
 import './App.css'
 import 'boxicons/css/boxicons.min.css';
+import Contact from './Contact/Contact';
 
 
 function App() {
@@ -104,11 +105,81 @@ function App() {
 
 
     {/* projects section */}
+    <section className="projects" id="projects">
+      <div className="heading">
+        <h2>Completed <span>Projects</span></h2>
+      </div>
+      <div className="scroll-list">
+        <div className="scroll-item">
+    <div className="icons">
+      <button>
+      <i className='bx bx-link' ></i>
+      <p className='text-black'>GitHub link <br />(client)</p>
+      </button>
+      <button>
+      <i className='bx bx-link-alt' ></i>
+      <p className='text-black'>GitHub link <br />(server)</p>
+      </button>
+      <button>
+      <i className='bx bx-link-external' ></i>
+      <p className='text-black'>Live website <br /> link</p>
+      </button>
+    </div>
+        </div>
+        <div className="scroll-item">
+    <div className="icons">
+      <button>
+      <i className='bx bx-link' ></i>
+      <p className='text-black'>GitHub link <br />(client)</p>
+      </button>
+      <button>
+      <i className='bx bx-link-alt' ></i>
+      <p className='text-black'>GitHub link <br />(server)</p>
+      </button>
+      <button>
+      <i className='bx bx-link-external' ></i>
+      <p className='text-black'>Live website <br /> link</p>
+
+      </button>
+    </div>
+        </div>
+        <div className="scroll-item">
+    <div className="icons">
+      <button>
+      <i className='bx bx-link' ></i>
+      <p className='text-black'>GitHub link <br />(client)</p>
+      </button>
+      <button>
+      <i className='bx bx-link-alt' ></i>
+      <p className='text-black'>GitHub link <br />(server)</p>
+      </button>
+      <button>
+      <i className='bx bx-link-external' ></i>
+      <p className='text-black'>Live website <br /> link</p>
+
+      </button>
+    </div>
+        </div>
+      </div>
+      {/* <div className="projects-details">
+        <div className="heading">
+          <h2>Projects <span>Details</span></h2>
+        </div>
+      </div> */}
+    </section>
 
     {/* contact section */}
+   
+    <Contact></Contact>
+    
 
     {/* footer section */}
-
+      <footer className="footer">
+        <hr />
+        <p className='text-xl'>Copyrights &copy; 1997 <br />
+        All rights reserver by Nazmun Nahar.
+        </p>
+      </footer>
 
 
 
