@@ -10,6 +10,7 @@ const Contact = () => {
         emailjs.sendForm('service_kleia3o', 'template_o04shsl', form.current, 'B0E9NeGkSwb-7itF7')
           .then((result) => {
               console.log(result.text);
+              form.current.reset();
           }, (error) => {
               console.log(error.text);
           });
@@ -17,18 +18,18 @@ const Contact = () => {
 
     return (
         <section>
-            <div className="contact-container">
+            <div className="contact-container" id="contact">
                 <div className="heading">
                 <h2>Contact <span>Me</span></h2>
                 </div>
                 <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
-      <input type="text" name="user_name" />
+      <input type="text" name="from_name" />
       <label>Email</label>
       <input type="email" name="user_email" />
       <label>Message</label>
       <textarea name="message" />
-      <input type="submit" className="" value="Send" />
+      <input type="submit" className="" value="Send"/>
     </form>
             </div>
         </section>
