@@ -111,7 +111,7 @@ function App() {
         <h3 className='font-bold'>I am a <span className='animated-text'>Web Developer</span></h3>
         <p>Passionate web developer creating user-friendly websites, <br /> proficient in front-end technologies and experienced in React <br /> and Node.js. Committed to delivering high-quality solutions.</p>
         <div className="social-media">
-        <a href="https://www.facebook.com/nijhum.982?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/nazmunnahar-nijhum-b81711287/" target="_blank" rel="noopener noreferrer">
   <i className="bx bxl-linkedin"></i>
 </a>
         <a href="https://github.com/nazmunnaharnijhum"  target="_blank" rel="noopener noreferrer"><i className='bx bxl-github'></i></a>
